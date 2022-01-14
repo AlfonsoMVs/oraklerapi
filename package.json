@@ -1,0 +1,38 @@
+{
+  "name": "Orakle-MP-API",
+  "version": "1.0.0",
+  "description": "An Oraklers api to get the MP data from the smart contracts and store it in mongodb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-json-modules app/index.js",
+    "prod": "node --experimental-json-modules app/index.js"
+  },
+  "keywords": [
+    "API",
+    "Orakler",
+    "MONGO",
+    "WEB3",
+    "ETH",
+    "BSC"
+  ],
+  "author": "Giovanny-DS",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.5.0",
+    "config": "^3.3.7",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "ethers": "^5.5.3",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.0",
+    "path": "^0.12.7",
+    "winston": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
